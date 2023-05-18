@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("restau.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.container{
+    background-color: #ffffff96;
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    box-shadow: 10px 10px 5px 0px rgba(147,199,219,1);
+}
+.wrapper{
+    margin: 10px;
+    height: 301px;
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center*/
+}
+.wrapper1, .wrapper2, .wrapper3, .wrapper4{
+    display: flex;
+    justify-content: space-between;
+}
+    input[type="range" i] {
+        width: 160px;
+    }
+#each{
+    display: none;
+}
+.spans{
+    width: 141px;
+}
+input[type="number" i] {
+    width: 165px;
+    height: 20px;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px
+    
+}
+.totalDiv{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #c0573152;
+
+}
+#rangeResult, #SharingResult{
+    width: 5px;
+}
